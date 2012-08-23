@@ -4411,7 +4411,7 @@ public final class Ruby {
     private final RuntimeCache runtimeCache;
 
     // The maximum number of methods we will track for profiling purposes
-    private static final int MAX_PROFILE_METHODS = 100000;
+    private static final int MAX_PROFILE_METHODS = 500000;
     
     // The method objects for serial numbers
     private ProfiledMethod[] profiledMethods = new ProfiledMethod[0];
